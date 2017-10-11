@@ -1,7 +1,7 @@
 package ;
 
-import openfl._v2.display.BitmapData;
-import openfl._v2.geom.Rectangle;
+import openfl.display.BitmapData;
+import openfl.geom.Rectangle;
 import org.si.b3.CMLMovieClipTexture;
 
 class Particle {

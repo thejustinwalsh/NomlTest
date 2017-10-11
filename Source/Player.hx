@@ -1,9 +1,9 @@
 package ;
 
-import openfl._v2.display.Graphics;
-import openfl._v2.Vector;
+import openfl.display.Graphics;
+import openfl.Vector;
 import org.si.cml.CMLObject;
-import openfl._v2.display.Shape;
+import openfl.display.Shape;
 import org.si.cml.extensions.Actor;
 
 class Player extends Actor {

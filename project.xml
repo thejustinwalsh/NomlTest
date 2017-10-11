@@ -9,8 +9,8 @@
 	<window width="466" height="466" background="0x000000" fps="30" />
 
 	<haxelib name="openfl" />
-	<haxelib name="openfl-ouya" />
 	<haxelib name="cannonml" />
+	<haxedef name="fdb" if="flash"/>
 
 	<assets path="Assets" rename="assets" exclude="openfl.svg" />
 	<icon path="Assets/openfl.svg" />

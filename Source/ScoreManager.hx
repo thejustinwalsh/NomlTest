@@ -1,7 +1,7 @@
 package ;
 
 //--------------------------------------------------------------------------------
-import openfl._v2.net.SharedObject;
+import openfl.net.SharedObject;
 import org.si.cml.CMLObject;
 
 class BestScore {

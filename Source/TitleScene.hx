@@ -2,7 +2,7 @@ package ;
 
 import org.si.b3.modules.CMLScene;
 import org.si.b3.modules.CMLMovieClipSceneManager;
-import openfl._v2.events.Event;
+import openfl.events.Event;
 import org.si.b3.CMLMovieClip;
 
 class TitleScene extends CMLScene {

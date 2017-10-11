@@ -1,20 +1,20 @@
 package ;
 
-import openfl._v2.geom.Point;
-import openfl._v2.geom.Point;
-import openfl._v2.Vector;
+import openfl.geom.Point;
+import openfl.geom.Point;
+import openfl.Vector;
 import openfl.display.GradientType;
-import openfl._v2.display.Graphics;
-import openfl._v2.filters.DropShadowFilter;
+import openfl.display.Graphics;
+import openfl.filters.DropShadowFilter;
 import org.si.cml.CMLFiber;
-import openfl._v2.display.Shape;
+import openfl.display.Shape;
 import org.si.cml.CMLObject;
-import openfl._v2.geom.Matrix;
-import openfl._v2.events.Event;
+import openfl.geom.Matrix;
+import openfl.events.Event;
 import org.si.b3.CMLMovieClipTexture;
 import org.si.cml.CMLSequence;
-import openfl._v2.display.BitmapData;
-import openfl._v2.geom.ColorTransform;
+import openfl.display.BitmapData;
+import openfl.geom.ColorTransform;
 
 @:bitmap("Assets/characters.png") class CharacterData extends BitmapData {}
 @:bitmap("Assets/ouya-spritesheet.png") class OuyaData extends BitmapData {}

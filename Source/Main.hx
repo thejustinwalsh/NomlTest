@@ -1,13 +1,8 @@
 package ;
 
 import InstructionsScene;
-import openfl._v2.display.Sprite;
+import openfl.display.Sprite;
 import org.si.b3.CMLMovieClip;
-
-#if ouya
-import openfl.utils.JNI;
-import tv.ouya.console.api.OuyaController;
-#end
 
 class Main extends Sprite{
     public static var mc:CMLMovieClip;

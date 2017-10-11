@@ -1,8 +1,8 @@
 package ;
 
 import openfl.Vector;
-import openfl._v2.display.Graphics;
-import openfl._v2.display.Shape;
+import openfl.display.Graphics;
+import openfl.display.Shape;
 import org.si.b3.modules.CMLScene;
 import org.si.b3.modules.CMLMovieClipSceneManager;
 import org.si.b3.CMLMovieClip;
@@ -76,8 +76,8 @@ class InstructionsScene extends CMLScene {
     public override function exit():Void {
     }
 
-    private var cmd:Array<Int> = [1, 2, 2, 2, 2];
-    private var path:Array<Float> = new Array<Float>();
+    private var cmd:Vector<Int> = Vector.ofArray([1, 2, 2, 2, 2]);
+    private var path:Vector<Float> = new Vector<Float>();
     private function updateEatRange() : Void {
         var g:Graphics = eatRangeShape.graphics,
             sin:Float = Math.sin(eatRangeAngle) * eatRangeDraw,

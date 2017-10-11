@@ -3,7 +3,7 @@ package ;
 
 import org.si.b3.modules.CMLScene;
 import org.si.b3.CMLMovieClip;
-import openfl._v2.events.Event;
+import openfl.events.Event;
 
 class GameoverScene extends CMLScene {
     private var referenceRecord:Bool;
